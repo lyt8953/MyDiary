@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_diary"
+        android:icon="@drawable/add"
+        android:title="@string/new_diary"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/show_all"
+        android:title="@string/all"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/show_collected"
+        android:title="@string/collected"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sort"
+        android:title="@string/date_asc"
+        app:showAsAction="never"/>
+</menu>

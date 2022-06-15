@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">看见你的足迹</string>
+    <string name="diary_title_hint">请输入一个标题.</string>
+    <string name="diary_title_label">标题</string>
+    <string name="diary_amount_hint">请输入正文.</string>
+    <string name="diary_amount_label">正文</string>
+    <string name="diary_date_label">时间</string>
+    <string name="date_picker_title">日记日期:</string>
+    <string name="time_picker_title">日记时间:</string>
+    <string name="new_diary">新建</string>
+    <string name="all">全部</string>
+    <string name="collected">收藏</string>
+    <string name="date_asc">时间正序</string>
+    <string name="date_desc">时间倒叙</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">共%1$d条记录</string>
+    <string name="subtitle_format_of_incoming">共%1$d条收入记录</string>
+    <string name="subtitle_format_of_expenditure">共%1$d条支出记录</string>
+    <string name="delete_diary">删除</string>
+    <string name="share_diary">分享</string>
+    <string name="jump_to_first">第一条</string>
+    <string name="jump_to_last">最后一条</string>
+    <string name="diary_share">%1$s\n%2$s\n%3$s</string>
+    <string name="diary_share_subject">分享日记</string>
+    <string name="send_report">分享日记通过：</string>
+</resources>

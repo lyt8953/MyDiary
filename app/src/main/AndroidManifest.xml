@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.cuz.zhengjun.mydiary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light">
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DiaryListActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DiaryPagerActivity"
+            android:parentActivityName=".DiaryListActivity" />
+        <provider
+            android:authorities="cn.edu.cuz.zhengjun.mydiary.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files_paths"/>
+        </provider>
+    </application>
+
+</manifest>
